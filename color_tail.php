@@ -1,9 +1,9 @@
 <?php
-require './vendor/autoload.php';
+require dirname(__FILE__).'/vendor/autoload.php';
 use Colors\Color;
 
 $c = new Color();
-$file = dirname(__FILE__).'/'.$argv[1];
+$file = $argv[1];
 
 while(true){
 
